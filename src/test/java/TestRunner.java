@@ -16,7 +16,6 @@ public class TestRunner extends TestBase {
     String productName = TestUtility.readFromExcelCell(excelFile,"Sheet1",1,2);
     static String url= TestUtility.readFromConfigProperties(config,"URL");
     HomePage homePage=new HomePage(driver);
-    TestUtility testUtility;
     ProductPage productPage=new ProductPage(driver);
     MyFavoritePage myFavoritePage;
     String selectedProductName;
